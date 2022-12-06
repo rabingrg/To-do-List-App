@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+*{
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+.container{
+  height: 350px;
+  width: 20%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 130px;
+  border-radius: 15px;
+  
+}
+h1{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: gold;
+  background-color: purple;
+  /* padding-bottom: 50px; */
+  padding-top: -30px;
+}
+.inputline{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  margin-left: 45px;
+  /* margin-right: 15px; */
+  background-color: white;
+}
+.inputline input{
+  height: 30px;
+  /* margin: auto; */
+  margin-left: 0px;
+  margin-right: 5px;
+  border: none;
+  /* width: 280px; */
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  background-color: lightsteelblue;
+  
+}
+.inputline button{
+  width: 35px;
+  padding: 0 8px;
+  height: 32px;
+  margin-left: 3px;
+  margin-right: 0;
+  border-radius: 15px;
+  border: none;
+  background-color: lightslategrey;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.inputline button:hover{
+  background-color: #20bf6b;
+}
+
+.container .smallcontainer{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 65px;
+  /* margin-right: 15px; */
+  background-color: white;
+  margin-top: 10px;
+
+}
+.container .smallcontainer ul{
+  background-color: white;
+}
+.container .smallcontainer li{
+  background-color: white;
+  font-size: 20px;
+  margin: 7px 0;
+  list-style:square;
+  font-family:sans-serif;
+  text-transform: capitalize;
+  cursor: pointer;
+
+}
+li:hover{
+  color: crimson;
+}
+/* .todoStyle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.todoStyle .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+
+} */
